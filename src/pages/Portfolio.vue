@@ -1,7 +1,7 @@
 <template>
 <Layout>
     <div>
-        <h1 class="display-2">Услуги</h1>
+        <h1>Услуги</h1>
         <div>
             <section class="card-columns">
 

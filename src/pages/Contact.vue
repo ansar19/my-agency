@@ -3,7 +3,7 @@
     <div class="min-vh-40 d-flex flex-column justify-content-end">
       <div class="row">
         <div class="col-md-6">
-          <h5 class="display-2">Хотите обсудить совместный проект?</h5>
+          <h1>Хотите обсудить совместный проект?</h1>
         </div>
         <div class="col-md-5 offset-md-1">
           <div class="form-group">

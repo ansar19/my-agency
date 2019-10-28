@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="">
-      <h1 class="display-2">Блог</h1>
+      <h1>Блог</h1>
         <div>
             <section class="posts">
                 <Post v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />

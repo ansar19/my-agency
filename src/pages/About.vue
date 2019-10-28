@@ -4,11 +4,11 @@
     <div class="row">
       <g-image src="~/assets/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
       <div class="col-md-4 d-flex flex-column justify-content-end">
-        <h5 class="display-4">Миссия</h5>
+        <h1>Миссия</h1>
         <p class="font-big-1">Миссия "ЭкоМарин (EcoMarine)" расти как здоровая, развивающаяся компания, удовлетворяющая
           нужды клиентов.</p>
-        <h1 class="mb-0">Ценности нашей компании:</h1>
-        <ul class="list-group">
+        <h1 class="mb-3">Ценности нашей компании:</h1>
+        <ul class="list-group mb-3">
           <li class="list-group-item"><b>Люди.</b> Мы обязуемся обращаться с каждым человеком с достоинством и
             уважением, а также приветствовать
             многообразие, сотрудничество, открытый диалог и командную работу.</li>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="col-md-8">
-        <h1 class="display-4 mb-0">Принципы работы нашей компании</h1>
+        <h1 class="mb-3">Принципы работы нашей компании</h1>
         <div class="row">
           <div class="col-md-4" v-for="(teamMember, index) in teamMembers" v-bind:key="index">
             <TeamMember :team-member="teamMember" />
