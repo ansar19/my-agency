@@ -76,6 +76,15 @@
             вашей отрасли. Напишите нам о том какие вызовы стоят перед вами, и мы обязательно вам поможем!
         </div>
 
+        <div class="videoWrapper mb-3">
+            <!-- Copy & Pasted from YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/coUldfkygxQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            
+        </div>
+        <p class="card-text"><small class="text-muted">Пример реализованного нами видео-инструктажа для работников
+                    уранового месторождения в Казахстане.</small></p>
 
         <div class="card mb-3">
             <div class="card-body">
@@ -88,8 +97,7 @@
 
 <script>
     export default {
-        components: { 
-        },
+        components: {},
         metaInfo: {
             title: 'About'
         },
@@ -100,6 +108,7 @@
     .home-links a {
         margin-right: 1rem;
     }
+
     .callout {
         padding: 20px;
         margin: 20px 0;
@@ -163,5 +172,21 @@
 
     .callout-bdc h4 {
         color: #29527a;
+    }
+
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 </style>
