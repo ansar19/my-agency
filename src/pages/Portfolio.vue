@@ -6,7 +6,7 @@
             <section class="card-columns">
 
                 <div class="card mb-3">
-                    <g-image src="~/assets/alvaro-reyes-qWwpHwip31M-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
+                    <g-image src="~/assets/alvaro-reyes-qWwpHwip31M-unsplash.jpg" class="img-fluid mb-4" alt="ПРИРОДООХРАННЫЕ УСЛУГИ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">ПРИРОДООХРАННЫЕ УСЛУГИ</h5>
                         <p class="card-text">Глубокое понимание инженерии, строительства, проектов нефти и газа,
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="card mb-3">
-                    <g-image src="~/assets/nicole-honeywill-dGxOgeXAXm8-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
+                    <g-image src="~/assets/nicole-honeywill-dGxOgeXAXm8-unsplash.jpg" class="img-fluid mb-4" alt="ОБУЧЕНИЕ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">ОБУЧЕНИЕ</h5>
                         <p class="card-text">Некоторые руководители иногда задаются вопросом: что будет если мы
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <g-image src="~/assets/helloquence-5fNmWej4tAA-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
+                    <g-image src="~/assets/helloquence-5fNmWej4tAA-unsplash.jpg" class="img-fluid mb-4" alt="ПРИРОДООХРАННОЕ ПРОЕКТИРОВАНИЕ И НОРМИРОВАНИЕ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">ПРИРОДООХРАННОЕ ПРОЕКТИРОВАНИЕ И НОРМИРОВАНИЕ</h5>
                         <p class="card-text">Понимание потенциальных экологических и социальных последствий
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <g-image src="~/assets/bradleysantos_-K8_zZv24eLw-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
+                    <g-image src="~/assets/bradleysantos_-K8_zZv24eLw-unsplash.jpg" class="img-fluid mb-4" alt="ЭКОЛОГИЧЕСКИЙ АУДИТ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">ЭКОЛОГИЧЕСКИЙ АУДИТ</h5>
                         <p class="card-text">Экологический аудит - это независимая оценка соблюдения предприятием
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <g-image src="~/assets/you-x-ventures-Oalh2MojUuk-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
+                    <g-image src="~/assets/you-x-ventures-Oalh2MojUuk-unsplash.jpg" class="img-fluid mb-4" alt="УСТОЙЧИВОЕ РАЗВИТИЕ, КОРПОРАТИВНО - СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">УСТОЙЧИВОЕ РАЗВИТИЕ, КОРПОРАТИВНО - СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ И
                             НЕФИНАНСОВАЯ ОТЧЕТНОСТЬ</h5>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <g-image src="~/assets/photo-1421940943431-d392fcc1079f.jpg" class="img-fluid mb-4" alt="Responsive image" fit="contain" />
+                    <g-image src="~/assets/photo-1421940943431-d392fcc1079f.jpg" class="img-fluid mb-4" alt="ОХРАНА ЗДОРОВЬЯ, ТРУДА И ПРОМЫШЛЕННАЯ БЕЗОПАСНОСТЬ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">ОХРАНА ЗДОРОВЬЯ, ТРУДА И ПРОМЫШЛЕННАЯ БЕЗОПАСНОСТЬ</h5>
                         <p class="card-text">Наша высококвалифицированная команда в области Охраны Труда, Здоровья,
@@ -109,24 +109,7 @@
 </Layout>
 </template>
 
-<page-query>
-    query {
-    allInstagramPhoto {
-    edges {
-    node {
-    display_url
-    edge_media_to_caption {
-    edges {
-    node {
-    text
-    }
-    }
-    }
-    }
-    }
-    }
-    }
-</page-query>
+
 
 <script>
 import Card from "../components/portfolio/Card";

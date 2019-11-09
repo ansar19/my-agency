@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="card mb-3">
-            <g-image src="~/assets/mark-koch-KiRlN3jjVNU-unsplash.jpg" class="img-fluid mb-4" alt="Responsive image"
+            <g-image src="~/assets/mark-koch-KiRlN3jjVNU-unsplash.jpg" class="img-fluid mb-4" alt="Природоохранные услуги"
                 fit="contain" />
             <div class="card-body">
                 <h5 class="card-title">Природоохранные услуги</h5>
@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div class="card-group">
+        <div class="card-group mb-3">
             <div class="card">
 
                 <div class="card-body">
@@ -43,7 +43,7 @@
                     <p>
                         При создании систем управления охраной окружающей среды мы всегда исходим из наилучших мировых
                         практик в области охраны окружающей среды, а также специфики Республики Казахстан.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
                 </div>
             </div>
             <div class="card">
@@ -66,7 +66,7 @@
                     <p>
                         Будем рады оказать высококвалифицированную помощь при решении любых поставленных задач в области
                         экологического права.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
                 </div>
             </div>
             <div class="card">
@@ -82,7 +82,7 @@
                         предлагаем разработку автоматизированных систем с учетом потребностей заказчиков и нормативных
                         требований Республики Казахстан, на основе современных платформ доступных для пользователей
                         практически с любых устройств подключенных к сети интернет.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
                 </div>
             </div>
         </div>
