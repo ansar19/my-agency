@@ -2,6 +2,7 @@
   <Layout>
     <div class="row">
       <div class="col-md-6">
+
         <Carousel :slides="slides" />
 
       </div>
@@ -48,13 +49,13 @@
           {
             type: 'ОЗ, ОТ И ПБ',
             title: 'HSE',
-            src: "~/assets/giuseppe-famiani-350158.jpg",
+            src: "~/assets/photo-1530475278652-5d941f9daa08.jpg",
             description: "So here are 17 wonderful, short positive quotes that my amazing colleague Hayley has collected for you."
           },
           {
             type: 'ОБУЧЕНИЕ',
             title: 'Training',
-            src: "~/assets/giuseppe-famiani-350158.jpg",
+            src: "~/assets/daria-nepriakhina-21928.jpg",
             description: "Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy."
           },
           {
