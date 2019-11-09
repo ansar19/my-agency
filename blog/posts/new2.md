@@ -21,7 +21,6 @@ https://tinyurl.com/safetybase
 - Сохранность данных в облаке и доступ с любой точки.
 
 <img src="https://miro.medium.com/max/2373/1*aVarHFXygKLFq-8O8amQdA.png" alt="SafetyBase" width="95%" title="SafetyBase" />
- 
 
 Естественно внедрение системы учета и анализа происшествий требует комплекса мер по проведению обучения и повышения культуры производства.
 

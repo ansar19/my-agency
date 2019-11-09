@@ -16,22 +16,22 @@
             многообразие, сотрудничество, открытый диалог и командную работу.</p>
         </div>
 
-        <div class="callout callout-success  mb-1 mt-1">
+        <div class="callout callout-success mb-1 mt-1">
             <b>Безопасность.</b> <p>Мы стремимся к тому, чтобы каждый день проходил без
             инцидентов и травм.</p>
         </div>
 
-        <div class="callout callout-success  mb-1 mt-1">
+        <div class="callout callout-success mb-1 mt-1">
             <b>Высокие стандарты.</b> <p>Мы стремимся к непрерывному повышению качества, уровня
             обслуживания с должным уровнем внимания к деталям. Мы ориентируемся на качество, а не на количество.</p>
         </div>
 
-        <div class="callout callout-success  mb-1 mt-1">
+        <div class="callout callout-success mb-1 mt-1">
             <b>Технологии.</b> <p>Мы стремимся к инновациям и технологическому лидерству в нашей
             работе.</p>
         </div>
 
-        <div class="callout callout-success  mb-1 mt-1">
+        <div class="callout callout-success mb-1 mt-1">
             <b>Охрана окружающей среды.</b> <p>Мы стремимся обеспечить долгосрочное благоприятное
             состояние окружающей среды, а также защитить рентабельность и активы наших клиентов.</p>
         </div>

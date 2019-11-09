@@ -18,7 +18,7 @@
             id
             title
             content
-            date (format: "D MMMM YYYY")
+            date (format: "DD-MM-YYYY")
             timeToRead
         }
     }

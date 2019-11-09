@@ -41,26 +41,26 @@
       return {
         slides: [{
             type: 'ООС',
-            title: 'New Dev Work',
-            src: "https://source.unsplash.com/random/800x900/?green",
+            title: 'Environmental',
+            src: "~/assets/mark-koch-KiRlN3jjVNU-unsplash.jpg",
             description: "Sometime we can feel a bit dull in the morning and we need to produce our own sunshine energy."
           },
           {
             type: 'ОЗ, ОТ И ПБ',
-            title: 'New UI Design',
-            src: "https://source.unsplash.com/random/800x900/?construction",
+            title: 'HSE',
+            src: "~/assets/giuseppe-famiani-350158.jpg",
             description: "So here are 17 wonderful, short positive quotes that my amazing colleague Hayley has collected for you."
           },
           {
             type: 'ОБУЧЕНИЕ',
-            title: 'Update on New Feature',
-            src: "https://source.unsplash.com/random/800x900/?education",
+            title: 'Training',
+            src: "~/assets/giuseppe-famiani-350158.jpg",
             description: "Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy."
           },
           {
             type: 'УСТОЙЧИВОЕ РАЗВИТИЕ',
-            title: 'Bug Fix',
-            src: "https://source.unsplash.com/random/800x900/?windpower",
+            title: 'Sustainability',
+            src: "~/assets/giuseppe-famiani-350158.jpg",
             description: "We also have a powerful and proven Law of Attraction gift which you can access by clicking the link below"
           },
         ]
