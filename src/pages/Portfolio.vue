@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="card mb-3">
-                    <g-image src="~/assets/bradleysantos_-K8_zZv24eLw-unsplash.jpg" class="img-fluid mb-4" alt="ЭКОЛОГИЧЕСКИЙ АУДИТ" fit="contain" />
+                    <g-image src="~/assets/rsz_bradleysantos_-k8_zzv24elw-unsplash.jpg" class="img-fluid mb-4" alt="ЭКОЛОГИЧЕСКИЙ АУДИТ" fit="contain" />
                     <div class="card-body">
                         <h5 class="card-title">ЭКОЛОГИЧЕСКИЙ АУДИТ</h5>
                         <p class="card-text">Экологический аудит - это независимая оценка соблюдения предприятием

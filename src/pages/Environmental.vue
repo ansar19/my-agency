@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="card mb-3">
-            <g-image src="~/assets/mark-koch-KiRlN3jjVNU-unsplash.jpg" class="img-fluid mb-4" alt="Природоохранные услуги"
+            <g-image src="~/assets/rsz_karsten-wurth-inf1783-63308.jpg" class="img-fluid mb-4" alt="Природоохранные услуги"
                 fit="contain" />
             <div class="card-body">
                 <h5 class="card-title">Природоохранные услуги</h5>
