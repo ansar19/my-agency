@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="card mb-3">
-            <g-image src="~/assets/photo-1421940943431-d392fcc1079f.jpg" class="img-fluid mb-4" alt=">ОХРАНА ЗДОРОВЬЯ, ТРУДА И ПРОМЫШЛЕННАЯ БЕЗОПАСНОСТЬ"
+            <g-image src="~/assets/photo-1563257764-ec4bd2983cbe.jpg" class="img-fluid mb-4" alt=">ОХРАНА ЗДОРОВЬЯ, ТРУДА И ПРОМЫШЛЕННАЯ БЕЗОПАСНОСТЬ"
                 fit="contain" />
             <div class="card-body">
                 <h5 class="card-title">ОХРАНА ЗДОРОВЬЯ, ТРУДА И ПРОМЫШЛЕННАЯ БЕЗОПАСНОСТЬ</h5>
@@ -12,7 +12,6 @@
             <p class="mb-0">Безопасность прежде всего!</p>
         </blockquote>
 
-        
             <div class="card mb-3">
                 <div class="card-body">
                     <p class="card-text">

@@ -15,8 +15,8 @@
                             проектами. Наш профессионализм позволяет оказывать услуги на высочайшем уровне при
                             реализации сложных многоэтапных проектов, а также избегать и минимизировать негативное
                             воздействие при работе в наиболее экологически чувствительных районах..</p>
-                        <p class="card-text"><small class="text-muted">
-                                <g-link to="/environmental">Узнать больше...</g-link>
+                        <p class="card-text"><small class="text-muted link-2">
+                                <g-link class="link-2" to="/environmental">Узнать больше...</g-link>
                             </small></p>
                     </div>
                 </div>
@@ -29,8 +29,8 @@
                             обучим сотрудника, а он уйдет в другую компанию?
                             Но нам кажется, что вопрос должен звучать: что будет если мы не обучим нашего сотрудника
                             и он останется в компании?</p>
-                        <p class="card-text"><small class="text-muted">
-                                <g-link to="/trainings">Узнать больше...</g-link>
+                        <p class="card-text"><small class="text-muted link-2">
+                                <g-link class="link-2" to="/trainings">Узнать больше...</g-link>
                             </small></p>
                     </div>
                 </div>
@@ -50,8 +50,8 @@
                             Сбросов (ПДС), Проектов Нормативов Размещения Отходов (ПНРО). Вне зависимости от того,
                             новый у вас проект или корректировка существующих проектов, мы поможем с учетом
                             отраслевой специфики и учета рисков сверхнормативных платежей за эмиссию.</p>
-                        <p class="card-text"><small class="text-muted">
-                                <g-link to="/engineering">Узнать больше...</g-link>
+                        <p class="card-text"><small class="text-muted link-2">
+                                <g-link class="link-2" to="/engineering">Узнать больше...</g-link>
                             </small></p>
                     </div>
                 </div>
@@ -65,8 +65,8 @@
                             Экологический аудит проводится на добровольной основе для оценки текущей деятельности на
                             соответствие экологическим нормативам и выработки оптимальной стратегии развития в
                             экологической плоскости.</p>
-                        <p class="card-text"><small class="text-muted">
-                                <g-link to="/audit">Узнать больше...</g-link>
+                        <p class="card-text"><small class="text-muted link-2">
+                                <g-link class="link-2" to="/audit">Узнать больше...</g-link>
                             </small></p>
                     </div>
                 </div>
@@ -82,8 +82,8 @@
                             удерживать талантливых сотрудников. Обратите благое намерение в прибыльные действия для
                             вашего бизнеса, повысьте значимость вашей деятельности в глазах клиентов и сотрудников.
                         </p>
-                        <p class="card-text"><small class="text-muted">
-                                <g-link to="/sustainability">Узнать больше...</g-link>
+                        <p class="card-text"><small class="text-muted link-2">
+                                <g-link class="link-2" to="/sustainability">Узнать больше...</g-link>
                             </small></p>
                     </div>
                 </div>
@@ -97,8 +97,8 @@
                             (EcoMarine)" является широкомасштабным - мы работаем с как крупными клиентами
                             нефтегазовой, строительной, морской и горнорудной отрасли, так и с компаниями по
                             установке систем связи, муниципальными организациями.</p>
-                        <p class="card-text"><small class="text-muted">
-                                <g-link to="/safety">Узнать больше...</g-link>
+                        <p class="card-text"><small class="text-muted link-2">
+                                <g-link class="link-2" to="/safety">Узнать больше...</g-link>
                             </small></p>
                     </div>
                 </div>
@@ -108,8 +108,6 @@
     </div>
 </Layout>
 </template>
-
-
 
 <script>
 import Card from "../components/portfolio/Card";
@@ -122,3 +120,44 @@ export default {
     }
 }
 </script>
+
+
+<style scoped>
+a {
+  text-transform: uppercase;
+/*   font-size: 36px; */
+/*   color: white; */
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+[class^="link-"] {
+  display: inline-block;
+  margin: 1em
+}
+
+/* linktwo */
+.link-2 a:hover {
+  color: #0FBF96;
+}
+
+.link-2 a:before {
+  content: '';
+  border-bottom: solid 1px #0FBF96;
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.link-2 a:hover:before {
+  opacity: 1.0;
+}
+
+.link-2 a, .link-2 a:before {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+</style>
