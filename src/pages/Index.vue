@@ -43,25 +43,25 @@
         slides: [{
             type: 'ООС',
             title: 'Environmental',
-            src: "~/assets/mark-koch-KiRlN3jjVNU-unsplash.jpg",
+            src: require("~/assets/mark-koch-KiRlN3jjVNU-unsplash.jpg"),
             description: "Sometime we can feel a bit dull in the morning and we need to produce our own sunshine energy."
           },
           {
             type: 'ОЗ, ОТ И ПБ',
             title: 'HSE',
-            src: "~/assets/photo-1530475278652-5d941f9daa08.jpg",
+            src: require("~/assets/photo-1530475278652-5d941f9daa08.jpg"),
             description: "So here are 17 wonderful, short positive quotes that my amazing colleague Hayley has collected for you."
           },
           {
             type: 'ОБУЧЕНИЕ',
             title: 'Training',
-            src: "~/assets/daria-nepriakhina-21928.jpg",
+            src: require("~/assets/photo-1462393582935-1ac76b85dcf1.jpg"),
             description: "Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy."
           },
           {
             type: 'УСТОЙЧИВОЕ РАЗВИТИЕ',
             title: 'Sustainability',
-            src: "~/assets/giuseppe-famiani-350158.jpg",
+            src: require("~/assets/pop-zebra-wp81DxKUd1E-unsplash.jpg"),
             description: "We also have a powerful and proven Law of Attraction gift which you can access by clicking the link below"
           },
         ]
