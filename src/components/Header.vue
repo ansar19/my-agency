@@ -10,7 +10,7 @@
                     <li><g-link to="/contact">КОНТАКТЫ</g-link></li>
                 </ul>
                 <div class="d-flex flex-column justify-content-end">
-                    <img src="../assets/ecomarine_eng_2.webp" width="200" />
+                    <img src="../assets/ecomarine.svg" width="300" />
                 </div>
             </div>
             <div>
