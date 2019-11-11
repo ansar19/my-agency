@@ -124,40 +124,16 @@ export default {
 
 <style scoped>
 a {
-  text-transform: uppercase;
-/*   font-size: 36px; */
-/*   color: white; */
-  text-decoration: none;
-  position: relative;
-  display: block;
+    font-size: inherit;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: inset 0 -2px 0 0 #0FBF96;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
 }
-
-[class^="link-"] {
-  display: inline-block;
-  margin: 1em
-}
-
-/* linktwo */
-.link-2 a:hover {
-  color: #0FBF96;
-}
-
-.link-2 a:before {
-  content: '';
-  border-bottom: solid 1px #0FBF96;
-  position: absolute;
-  bottom: 0; left: 0;
-  width: 100%;
-  opacity: 0;
-}
-
-.link-2 a:hover:before {
-  opacity: 1.0;
-}
-
-.link-2 a, .link-2 a:before {
-  -webkit-transition: all 0.2s ease;
-          transition: all 0.2s ease;
+a:hover {
+  box-shadow: inset 0 -0.7em 0 0 #0FBF96;
 }
 
 </style>
