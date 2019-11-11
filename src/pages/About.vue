@@ -1,9 +1,10 @@
 <template>
   <Layout>
-
     <div class="row">
+      <figure>
       <g-image src="~/assets/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="img-fluid mb-4" alt="О компании"
         fit="contain" />
+      </figure>
       <div class="col-md-4 d-flex flex-column justify-content-top">
         <h1>Миссия</h1>
         <p class="font-big-1">Миссия "ЭкоМарин (EcoMarine)" расти как здоровая, развивающаяся компания, удовлетворяющая
