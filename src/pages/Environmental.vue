@@ -100,7 +100,7 @@
         components: {
         },
         metaInfo: {
-            title: 'Environmental'
+            title: 'ООС'
         },
     }
 </script>

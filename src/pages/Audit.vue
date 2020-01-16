@@ -186,7 +186,7 @@
         components: {
         },
         metaInfo: {
-            title: 'Audit'
+            title: 'Аудит'
         },
     }
 </script>

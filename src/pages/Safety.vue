@@ -61,7 +61,7 @@
     export default {
         components: {},
         metaInfo: {
-            title: 'Safety'
+            title: 'Безопасность'
         },
     }
 </script>

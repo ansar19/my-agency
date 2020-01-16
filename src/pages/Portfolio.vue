@@ -116,7 +116,7 @@ export default {
         Card
     },
     metaInfo: {
-        title: 'Portfolio'
+        title: 'Услуги'
     }
 }
 </script>

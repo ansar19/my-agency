@@ -99,7 +99,7 @@
     export default {
         components: {},
         metaInfo: {
-            title: 'About'
+            title: 'Обучение'
         },
     }
 </script>

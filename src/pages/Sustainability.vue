@@ -71,7 +71,7 @@
 <script>
     export default {
         metaInfo: {
-            title: 'Sustainability'
+            title: 'Устойчивое развитие'
         },
     }
 </script>

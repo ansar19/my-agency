@@ -64,7 +64,7 @@
       TeamMember
     },
     metaInfo: {
-      title: 'About'
+      title: 'Про нас'
     },
     data() {
       return {

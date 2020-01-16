@@ -35,7 +35,7 @@
             Post
         },
         metaInfo: {
-            title: 'Blog'
+            title: 'Блог'
         }
     }
 </script>

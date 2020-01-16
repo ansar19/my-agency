@@ -121,7 +121,7 @@
     export default {
         components: {},
         metaInfo: {
-            title: 'Engineering'
+            title: 'Проектирование'
         },
     }
 </script>

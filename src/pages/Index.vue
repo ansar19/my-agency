@@ -36,7 +36,7 @@
       Carousel
     },
     metaInfo: {
-      title: 'Home'
+      title: 'Главная'
     },
     data() {
       return {
