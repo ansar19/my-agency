@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="card mb-3">
-            <g-image src="~/assets/thomas-richter-56177.jpg" class="img-fluid mb-4" alt="Responsive image"
+            <g-image src="~/assets/thomas-richter-56177.jpg" class="img-fluid mb-4" alt="Sustainability image"
                 fit="contain" />
             <div class="card-body">
                 <h5 class="card-title">УСТОЙЧИВОЕ РАЗВИТИЕ, КОРПОРАТИВНО - СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ И НЕФИНАНСОВАЯ
@@ -46,16 +46,13 @@
                     Наши услуги включают:
                 </h5>
                 <div>
-                    <ol class="list-counter-circle list-group">
-                        <li>Разработка стратегии в области устойчивого развития и корпоративной социальной
-                            ответственности.</li>
-                        <li>Отчетность в области устойчивого развития и нефинансовой отчетности (GRI, AA 1000, SA 8000,
-                            ISO 26000).</li>
+                    <ol>
+                        <li>Разработка стратегии в области устойчивого развития и корпоративной социальной ответственности.</li>
+                        <li>Отчетность в области устойчивого развития и нефинансовой отчетности (GRI, AA 1000, SA 8000, ISO 26000).</li>
                         <li>Устойчивое конкурентное позиционирование</li>
                         <li>Отчетность и консультации в области выбросов парниковых газов.</li>
                     </ol>
                 </div>
-
             </div>
         </div>
 
@@ -76,52 +73,53 @@
     }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
     .home-links a {
         margin-right: 1rem;
     }
 
-    /* CSS */
-    .list-counter-circle {
-        list-style: none;
-        counter-reset: list;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
+ul,
+ol {
+  margin-left: 5px;
+  list-style: none;
+  li {
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 15px;
+    &::before {
+      color: white;
+      background-color: #28a745;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+      left: -15px;
+      top: 7px;
+      position: absolute;
+      text-align: center;
+      content: "";
     }
+  }
+}
+ol {
+  margin-left: 5px;
+  counter-reset: li;
+  li {
+    padding-left: 20px;
+    counter-increment: li;
+    &::before {
+      content: counter(li);
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+      left: -25px;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
 
-    .list-counter-circle>li {
-        position: relative;
-        display: block;
-        height: 2rem;
-        line-height: 2rem;
-        margin-left: 1.75rem;
-        margin-bottom: .25rem;
-        padding-left: 1rem;
-        padding-right: .5rem;
-        color: #fff;
-        background: #28a745;
-        white-space: nowrap;
-        border-radius: .25rem
-    }
-
-    .list-counter-circle>li:last-child {
-        margin-bottom: 0;
-    }
-
-    .list-counter-circle>li::before {
-        content: counter(list);
-        counter-increment: list;
-        position: absolute;
-        left: -2rem;
-        top: -.25rem;
-        bottom: -.25rem;
-        width: 2.5rem;
-        line-height: 2rem;
-        border-radius: 1.25rem;
-        border: .25rem solid #fff;
-        text-align: center;
-        color: #fff;
-        background: #28a745;
-    }
 </style>
