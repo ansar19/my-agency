@@ -3,14 +3,6 @@
 
 > A minimalistic starter theme for an agency using [Gridsome]() with Bootstrap 4.
 
-## Preview
-
-![preview](https://pbs.twimg.com/media/EFP-n2pWkAEa3si?format=jpg&name=4096x4096)
-
-### Demo
-
-[https://gridsome-agency-starter.netlify.com](https://gridsome-agency-starter.netlify.com)
-
 ### Features
 
 This starter project includes some of the latest powerful technologies.
