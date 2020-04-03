@@ -7,6 +7,7 @@
 module.exports = {
     siteName: '"ЭкоМарин Казахстан"',
     siteDescription: 'Управление эмиссиями производственных предприятий.',
+    siteUrl: 'https://ecomarine.kz/',
 
     plugins: [
         {
