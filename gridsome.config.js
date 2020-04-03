@@ -28,15 +28,65 @@ module.exports = {
         {
             use: '@gridsome/plugin-google-analytics',
             options: {
-              id: 'UA-91187323-1'
+                id: 'UA-91187323-1'
             }
-          },
-          {
+        },
+        {
             use: 'gridsome-plugin-yandex-metrika',
             options: {
-              id: 61598815
+                id: 61598815
             }
-          }
+        },
+        {
+            use: '@gridsome/plugin-sitemap',
+            options: {
+                cacheTime: 600000, // default
+                // exclude: ['/exclude-me'],
+                config: {
+                    '/blog/*': {
+                        changefreq: 'weekly',
+                        priority: 0.5
+                    },
+                    '/about': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/portfolio': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/environmental': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/engineering': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/sustainability': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/trainings': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/audit': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    '/safety': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    },
+                    'contact': {
+                        changefreq: 'monthly',
+                        priority: 0.7
+                    }
+
+                }
+            }
+        }
     ],
 
     transformers: {
