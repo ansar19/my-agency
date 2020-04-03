@@ -4,7 +4,7 @@
             <div class="d-flex flex-row justify-content-between">
                 <ul class="list-unstyled font-weight-bold">
                     <li><g-link to="/">ГЛАВНАЯ</g-link></li>
-                    <li><g-link to="/about">О КОМПАНИИ</g-link></li>
+                    <li><g-link to="/about">О НАС</g-link></li>
                     <li><g-link to="/portfolio">УСЛУГИ</g-link></li>
                     <li><g-link to="/blog">БЛОГ</g-link></li>
                     <li><g-link to="/contact">КОНТАКТЫ</g-link></li>
