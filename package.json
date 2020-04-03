@@ -19,6 +19,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.2.2",
     "gridsome": "^0.7.12",
+    "gridsome-plugin-yandex-metrika": "^0.1.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

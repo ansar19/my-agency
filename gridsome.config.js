@@ -30,6 +30,12 @@ module.exports = {
             options: {
               id: 'UA-91187323-1'
             }
+          },
+          {
+            use: 'gridsome-plugin-yandex-metrika',
+            options: {
+              id: 61598815
+            }
           }
     ],
 
